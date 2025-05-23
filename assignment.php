@@ -17,8 +17,9 @@ do {
     if ($choice == 1) {
         if ($userCount >= 10) {
             echo "Registration limit reached (10 users)!\n";
-        } else {
-            echo "\nEnter details for User " . ($userCount + 1) . ":\n";
+        } 
+        else {
+            echo "\n Enter details for User " . ($userCount + 1) . ":\n";
             $name = readline("Name: ");
             $email = readline("Email: ");
             $password = readline("Password: ");
